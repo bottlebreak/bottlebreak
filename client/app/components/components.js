@@ -1,12 +1,11 @@
 import angular from 'angular';
 import Home from './home/home';
-import About from './about/about';
-
+import Maps from './maps/maps';
 let componentModule = angular.module('app.components', [
   Home,
-  About
+  Maps
 ])
-  
+
 .name;
 
 export default componentModule;

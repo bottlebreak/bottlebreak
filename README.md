@@ -1,3 +1,5 @@
+[angularjs-google-maps](https://github.com/allenhwkim/angularjs-google-maps)
+[angular-material](https://material.angularjs.org/latest/)
 <p align="center">
   <a href="https://angularclass.com" target="_blank">
     <img src="https://cloud.githubusercontent.com/assets/1016365/9864650/93a5660a-5b00-11e5-8716-a0d538d12913.png" alt="ng6-starter" width="480px;" >
@@ -33,7 +35,7 @@ ___
     * [Running the App](#running-the-app)
         * [Gulp Tasks](#gulp-tasks)
         * [Testing](#testing)
-		* [Generating Components](#generating-components)		
+		* [Generating Components](#generating-components)
 * [Starter Kit Support and Questions](#starter-kit-support-and-questions)
 
 # Walkthrough
@@ -89,7 +91,7 @@ To run tests, type `npm test` or `karma start` in the terminal. Read more about 
 ## Dependencies
 Tools needed to run this app:
 * `node` and `npm`
-Once you have these, install the following as globals:  
+Once you have these, install the following as globals:
 `npm install -g gulp karma karma-cli webpack`
 
 ## Installing
@@ -100,7 +102,7 @@ Once you have these, install the following as globals:
 
 ## Running the App
 NG6 uses Gulp to build and launch the development environment. After you have installed all dependencies, you may run the app. Running `gulp` will bundle the app with `webpack`, launch a development server, and watch all files. The port will be displayed in the terminal.
- 
+
 ### Gulp Tasks
 Here's a list of available tasks:
 * `webpack`
@@ -113,7 +115,7 @@ Here's a list of available tasks:
 	* runs `serve`.
 * `component`
   * scaffolds a new Angular component. [Read below](#generating-components) for usage details.
-  
+
 ### Testing
 To run the tests, run `npm test` or `karma start`.
 
@@ -147,9 +149,9 @@ The parameter following the `--name` flag is the name of the component to be cre
 
 The component will be created, by default, inside `client/app/components`. To change this, apply the `--parent` flag, followed by a path relative to `client/app/components/`.
 
-For example, running `gulp component --name signup --parent auth` will create a `signup` component at `client/app/components/auth/signup`.  
+For example, running `gulp component --name signup --parent auth` will create a `signup` component at `client/app/components/auth/signup`.
 
-Running `gulp component --name footer --parent ../common` creates a `footer` component at `client/app/common/footer`.  
+Running `gulp component --name footer --parent ../common` creates a `footer` component at `client/app/common/footer`.
 
 Because the argument to `--name` applies to the folder name **and** the actual component name, make sure to camelcase the component names.
 
@@ -161,7 +163,7 @@ Because the argument to `--name` applies to the folder name **and** the actual c
 
 ___
 
-enjoy — **AngularClass** 
+enjoy — **AngularClass**
 
 <br><br>
 
