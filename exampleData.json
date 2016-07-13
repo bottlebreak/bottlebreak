@@ -1,0 +1,17 @@
+{
+  "data" : [
+    {
+      "locationData": {
+        "lat" : "00.00.00",
+        "long" : "00.00.00",
+        "streetAddress" : "1234 Test Drive"
+      },
+      "timeReported": "2016-07-14T18:25:43.511Z",
+      "timeExpires": "2016-07-15T18:25:43.511Z",
+      "votingData": {
+        "upVotes": 100,
+        "downVotes": 0
+      }
+    }
+  ]
+}

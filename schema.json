@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "locationData": {
+            "type": "object",
+            "properties": {
+              "lat": {
+                "type": "string"
+              },
+              "long": {
+                "type": "string"
+              },
+              "streetAddress": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "lat",
+              "long",
+              "streetAddress"
+            ]
+          },
+          "timeReported": {
+            "type": "string"
+          },
+          "timeExpires": {
+            "type": "string"
+          },
+          "votingData": {
+            "type": "object",
+            "properties": {
+              "upVotes": {
+                "type": "integer"
+              },
+              "downVotes": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "upVotes",
+              "downVotes"
+            ]
+          }
+        },
+        "required": [
+          "locationData",
+          "timeReported",
+          "timeExpires",
+          "votingData"
+        ]
+      }
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
